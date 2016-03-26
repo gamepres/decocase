@@ -10,7 +10,7 @@
 // MAY BE MISSING SOME COMBINATION
 // MAY BE BUGGY. I have just butchered some code from MAME.
 // HEURISTIC ISN'T GOOD ENOUGH, CHECK IF GAME WORKS ON REAL HARDWARE (OR EMULATOR)
-// Heuristic is: require "HDRA" "HDRB" "HDRC" or "HDRD", from byte 0001 + score with count of alphanumeric character in the 0000..0020 range. Best score wins.
+// Heuristic is: require "HDRA" "HDRB" "HDRC" "HDRD" or "HDRE", from byte 0001 + score with count of alphanumeric character in the 0000..0020 range. Best score wins.
 
 // Using info/code borrowed from MAME - defacto we are the same license as MAME
 // see machine/decocass.c, drivers/decocass.c, etc.
